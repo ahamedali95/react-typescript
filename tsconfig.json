@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "module": "ES6",
+    "noImplicitAny": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "target": "esnext",
+    //allow us to pass existing js files via typescript compiler and does not enables additional syntax features like defining types.
+    "allowJs": true,
+    "noImplicitThis":  true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "alwaysStrict": true,
+    "locale": "en",
+    "experimentalDecorators": true,
+    "disableSizeLimit": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "version": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "./src/"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
